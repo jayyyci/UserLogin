@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Login Form Validation</title>
+
+    <style>
+        body {
+            background-position-x: 50%;
+            background-position-y: 50%;
+        }
+
+        .container {
+            margin:auto;
+            background: #fff;
+            max-width: 350px;
+        }
+    </style>
+
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="designn.css"/>
+<!-- Include JS File Here -->
+<script src="LoginForm.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+        <h2>User Login Form</h2>
+        <form id="form_id" method="post" name="myform">
+        <label>User Name :</label>
+        <input type="text" name="username" id="username"/>
+        <label>Password :</label>
+        <input type="password" name="password" id="password"/>
+        <input type="button" value="Login" id="submit" onclick="validate()"/>
+        </form>
+        </div>
+        </div>
+</body>
+</html>
